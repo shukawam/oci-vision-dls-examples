@@ -1,0 +1,21 @@
+{
+  "annotationFormat": "BOUNDING_BOX",
+  "compartmentId": "ocid1.compartment.oc1..aaaaaaaanjtbllhqxcg67dq7em3vto2mvsbc6pbgk4pw6cx37afzk3tngmoa",
+  "datasetFormatDetails": {
+    "formatType": "IMAGE"
+  },
+  "datasetSourceDetails": {
+    "bucket": "car-detection-training-data",
+    "namespace": "orasejapan",
+    "sourceType": "OBJECT_STORAGE"
+  },
+  "description": "Dataset for car detection.",
+  "displayName": "car-detection-dataset",
+  "labelSet": {
+    "items": [
+      {
+        "name": "car"
+      }
+    ]
+  }
+}

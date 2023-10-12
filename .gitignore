@@ -1,0 +1,4 @@
+*.jpg
+*.log
+*.csv
+__pycache__
