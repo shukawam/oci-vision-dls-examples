@@ -2,11 +2,11 @@
   "compartmentId": "ocid1.compartment.oc1..aaaaaaaanjtbllhqxcg67dq7em3vto2mvsbc6pbgk4pw6cx37afzk3tngmoa",
   "description": "custom model for car object detection.",
   "displayName": "car-detection-custom-model",
-  "isQuickMode": false,
+  "isQuickMode": true,
   "modelType": "OBJECT_DETECTION",
-  "projectId": "ocid1.aivisionproject.oc1.ap-tokyo-1.amaaaaaassl65iqauihbgsdxaf5j22i2ltpdos55s5aygp2oip5wl7kwpw3a",
+  "projectId": "ocid1.aivisionproject.oc1.ap-tokyo-1.amaaaaaassl65iqajufigwo3hrvohocbvgbclwuatrnm6nkdmmfvptsxf2ia",
   "trainingDataset": {
-    "datasetId": "ocid1.datalabelingdataset.oc1.ap-tokyo-1.amaaaaaassl65iqafkfvmbrzeli5xxmradunv7zbtqzp5z4jgfg3v7xf7yfq",
+    "datasetId": "ocid1.datalabelingdataset.oc1.ap-tokyo-1.amaaaaaassl65iqachcqezho72ybblt673hfqqzalhxsfr4ibghelg5iugvq",
     "datasetType": "DATA_SCIENCE_LABELING"
   }
 }
