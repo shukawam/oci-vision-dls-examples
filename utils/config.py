@@ -13,7 +13,7 @@ REGION_IDENTIFIER = "ap-tokyo-1"
 SERVICE_ENDPOINT_DP = f"https://dlsprod-dp.{REGION_IDENTIFIER}.oci.oraclecloud.com"
 SERVICE_ENDPOINT_OBJECT_STORAGE = f"https://objectstorage.{REGION_IDENTIFIER}.oraclecloud.com"
 # ocid of the DLS Dataset
-DATASET_ID = "ocid1.datalabelingdataset.oc1.ap-tokyo-1.amaaaaaassl65iqafkfvmbrzeli5xxmradunv7zbtqzp5z4jgfg3v7xf7yfq"
+DATASET_ID = "ocid1.datalabelingdataset.oc1.ap-tokyo-1.amaaaaaassl65iqachcqezho72ybblt673hfqqzalhxsfr4ibghelg5iugvq"
 # the no of processes to be used for parallel execution by default is set to maximum no of processors in the system
 NO_OF_PROCESSORS = mp.cpu_count()
 # Type of Annotation
@@ -27,7 +27,7 @@ REMOVE_LABEL_PRIFIX = "car"
 # Prefix of upload files
 OBJECT_STORAGE_PREFIX = ""
 # Files present inside this directory will be uploaded to the object storage bucket
-DATASET_DIRECTORY_PATH = f"/home/shukawam/work/oci-vision-dls-examples/car-detection/data/training_images"
+DATASET_DIRECTORY_PATH = "/home/shukawam/work/oci-vision-dls-examples/car-detection/data/training_images"
 # Object storage bucket name where the dataset will be uploaded
 OBJECT_STORAGE_BUCKET_NAME = "car-detection-training-data"
 # Namespace of the object storage bucket
