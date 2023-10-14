@@ -1,0 +1,27 @@
+{
+  "annotationFormat": "SINGLE_LABEL",
+  "compartmentId": "ocid1.compartment.oc1..aaaaaaaanjtbllhqxcg67dq7em3vto2mvsbc6pbgk4pw6cx37afzk3tngmoa",
+  "datasetFormatDetails": {
+    "formatType": "IMAGE"
+  },
+  "datasetSourceDetails": {
+    "bucket": "lemon-quality-classification-training-data",
+    "namespace": "orasejapan",
+    "sourceType": "OBJECT_STORAGE"
+  },
+  "description": "Dataset for lemon quality classification.",
+  "displayName": "lemon-quality-classification-dataset",
+  "labelSet": {
+    "items": [
+      {
+        "name": "bad_quality"
+      },
+      {
+        "name": "empty_background"
+      },
+      {
+        "name": "good_quality"
+      }
+    ]
+  }
+}

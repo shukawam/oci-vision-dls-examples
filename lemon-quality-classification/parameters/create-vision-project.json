@@ -1,0 +1,5 @@
+{
+  "compartmentId": "ocid1.compartment.oc1..aaaaaaaanjtbllhqxcg67dq7em3vto2mvsbc6pbgk4pw6cx37afzk3tngmoa",
+  "description": "custom model demo for image classification.",
+  "displayName": "lemon-classification-project"
+}

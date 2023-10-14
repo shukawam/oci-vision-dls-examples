@@ -18,17 +18,17 @@ DATASET_ID = "ocid1.datalabelingdataset.oc1.ap-tokyo-1.amaaaaaassl65iqachcqezho7
 NO_OF_PROCESSORS = mp.cpu_count()
 # Type of Annotation
 # Possible values for ANNOTATION_TYPE "BOUNDING_BOX", "CLASSIFICATION"
-ANNOTATION_TYPE = "BOUNDING_BOX"
+ANNOTATION_TYPE = "CLASSIFICATION"
 ##############################################################################################################
 # If ANNOTATION_TYPE is "CLASSIFICATION" edit classification_config.py
 # If ANNOTATION_TYPE is "BOUNDING_BOX" edit bounding_box__config.py
 # Prefix will be a label name, or label name prefix
 REMOVE_LABEL_PRIFIX = "car"
 # Prefix of upload files
-OBJECT_STORAGE_PREFIX = ""
+OBJECT_STORAGE_PREFIX = "empty_background/"
 # Files present inside this directory will be uploaded to the object storage bucket
-DATASET_DIRECTORY_PATH = "/home/shukawam/work/oci-vision-dls-examples/car-detection/data/training_images"
+DATASET_DIRECTORY_PATH = f"/home/shukawam/work/oci-vision-dls-examples/lemon-quality-classification/lemon_dataset/empty_background"
 # Object storage bucket name where the dataset will be uploaded
-OBJECT_STORAGE_BUCKET_NAME = "car-detection-training-data"
+OBJECT_STORAGE_BUCKET_NAME = "lemon-quality-classification-training-data"
 # Namespace of the object storage bucket
 OBJECT_STORAGE_NAMESPACE = "orasejapan"

@@ -1,0 +1,12 @@
+{
+  "compartmentId": "ocid1.compartment.oc1..aaaaaaaanjtbllhqxcg67dq7em3vto2mvsbc6pbgk4pw6cx37afzk3tngmoa",
+  "description": "custom model for lemon quality classification.",
+  "displayName": "lemon-quality-classification-custom-model",
+  "isQuickMode": true,
+  "modelType": "IMAGE_CLASSIFICATION",
+  "projectId": "ocid1.aivisionproject.oc1.ap-tokyo-1.amaaaaaassl65iqaaruwnp7luozm2l3hw3sn4rphvxgy25wf4phl3jfcxk7a",
+  "trainingDataset": {
+    "datasetId": "ocid1.datalabelingdataset.oc1.ap-tokyo-1.amaaaaaassl65iqax3o3idv7rxmu5lveiyqfgsvny7v5dbrvpynfjnjyydya",
+    "datasetType": "DATA_SCIENCE_LABELING"
+  }
+}
